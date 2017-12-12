@@ -6,5 +6,6 @@ gcc program.o -o program -nostdlib -L. -l:lib.so
 
 rm program.o
 rm lib.o
-# rm lib.so
+
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:"$PWD
 

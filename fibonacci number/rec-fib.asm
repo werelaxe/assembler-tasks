@@ -33,7 +33,7 @@ end:
 
 
 _start:
-	mov rax, 10
+	mov rax, 11
 	dec rax
 	push rax
 	call fib
